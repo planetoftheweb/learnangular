@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './component.app';
 
 @NgModule({
-  import: [
+  imports: [
     BrowserModule
   ],
   declarations: [
@@ -15,4 +15,4 @@ import { AppComponent } from './component.app';
   ]
 })
 
-expot class AppModule {}
+export class AppModule {}
