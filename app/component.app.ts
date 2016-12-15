@@ -9,6 +9,19 @@ export class AppComponent {
   name: string;
   artists: any;
 
+  onClick(e) {
+    this.name=e.target.innerHTML;
+  }
+
+  addArtist(value) {
+    if (value!=='') {
+      this.artists.push({
+        name: value,
+        school: 'Hard Knocks'
+      });
+    }
+  }
+
   constructor() {
     this.name = 'Xhou Ta';
     this.artists = [
