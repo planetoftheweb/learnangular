@@ -9,8 +9,9 @@ export class AppComponent {
   name: string;
   artists: any;
 
-  onClick(e) {
-    this.name=e.target.innerHTML;
+  onClick(myItem, myElement) {
+    this.name=myItem.name;
+    myElement.style.backgroundColor="#FECE4E";
   }
 
   addArtist(value) {
