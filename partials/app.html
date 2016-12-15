@@ -3,7 +3,9 @@
   <label class="search-label">search
     <span *ngIf="name"
       [innerHTML]="' for: ' +name"></span></label>
-    <input class="search-input" #newArtist
+    <input class="search-input"
+      #newArtist
+      [(ngModel)]="name" 
       (keyup.enter)="addArtist(newArtist.value); newArtist.value=''"
       >
     <button class="btn"
