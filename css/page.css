@@ -158,32 +158,3 @@ a.small {
   border: 1px solid #e8e8e8;
   box-shadow: 0 1px 0 rgba(0,0,0,.25);
 }
-
-
-/* ---------------------- */
-/* artist-item.css Styles */
-/* ---------------------- */
-
-.artist-img {
-  width: 60px;
-  border-radius: 12px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  float: left;
-}
-
-.artist-info {
-  display: block;
-  margin: 5px 0;
-}
-
-.artist-info .artist-name {
-  font-size: 1.4rem; 
-  margin-top: 0;
-}
-
-.artist-info .artist-reknown {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin-top: 0;
-}

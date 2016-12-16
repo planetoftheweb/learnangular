@@ -10,12 +10,6 @@
 <ul class="artistlist cf">
   <li class="artistlist-item cf"
     *ngFor="let item of artists">
-    <img class="artist-img" 
-      src="images/{{item.shortname}}_tn.jpg"
-      alt="{{item.name}} photo">
-    <div class="artist-info">
-      <h2 class="artist-name">{{ item.name }}</h2>
-      <h3 class="artist-reknown">{{ item.reknown }}</h3>
-    </div>
+    <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>

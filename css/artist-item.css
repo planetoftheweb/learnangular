@@ -1,0 +1,27 @@
+/* ---------------------- */
+/* artist-item.css Styles */
+/* ---------------------- */
+
+.artist-img {
+  width: 60px;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.artist-info {
+  display: block;
+  margin: 5px 0;
+}
+
+.artist-info .artist-name {
+  font-size: 1.4rem; 
+  margin-top: 0;
+}
+
+.artist-info .artist-reknown {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0;
+}
