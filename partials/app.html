@@ -9,7 +9,12 @@
 
 <ul class="artistlist cf">
   <li class="artistlist-item cf"
+    (click)="showArtist(item);"
     *ngFor="let item of artists">
     <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>
+
+<artist-details 
+  *ngIf="currentArtist"
+  [artist]="currentArtist"></artist-details>
