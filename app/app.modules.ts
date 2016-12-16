@@ -6,12 +6,14 @@ import { AppComponent } from './component.app';
 import { ArtistItemComponent } from './component.artist-item';
 import { ArtistDetailsComponent } from './component.artist-details';
 
+import { SearchPipe } from './pipe.search';
+
 @NgModule({
   imports: [
     BrowserModule, FormsModule
   ],
   declarations: [
-    AppComponent, ArtistItemComponent, ArtistDetailsComponent
+    AppComponent, ArtistItemComponent, ArtistDetailsComponent, SearchPipe
   ],
   bootstrap: [
     AppComponent

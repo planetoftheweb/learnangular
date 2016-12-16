@@ -11,7 +11,7 @@
   *ngIf="query">
   <li class="artistlist-item cf"
     (click)="showArtist(item); query=''"
-    *ngFor="let item of artists">
+    *ngFor="let item of (artists | search: query)">
     <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>
