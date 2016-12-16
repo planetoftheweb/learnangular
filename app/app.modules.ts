@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './component.app';
 import { ArtistItemComponent } from './component.artist-item';
-import { ArtistDetailsComponent } from './component.artist-details'
+import { ArtistDetailsComponent } from './component.artist-details';
 
 @NgModule({
   imports: [
